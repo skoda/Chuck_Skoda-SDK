@@ -8,6 +8,11 @@ Once you've installed the module...
 ## Get a Token
 Do this [here](https://the-one-api.dev/sign-up).
 
+## Add it to your project
+```
+npm install data-of-the-rings --save
+```
+
 ## Instantiate the SDK
 ```
 const DOTR = require('data-of-the-rings')('<your-access-token>');
