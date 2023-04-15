@@ -4,7 +4,8 @@
   "description": "You know you love these movies, how 'bout you do some cool things with their data?",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint .",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/skoda/Chuck_Skoda-SDK/issues"
   },
-  "homepage": "https://github.com/skoda/Chuck_Skoda-SDK#readme"
+  "homepage": "https://github.com/skoda/Chuck_Skoda-SDK#readme",
+  "devDependencies": {
+    "eslint": "^8.38.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "jest": "^29.5.0"
+  }
 }
